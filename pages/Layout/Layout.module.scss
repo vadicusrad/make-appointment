@@ -1,0 +1,17 @@
+.layout {
+    margin: 0 auto;
+    height: 100vh;
+    width: 1366px;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+    }
+}
